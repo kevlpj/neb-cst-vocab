@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Sales Scribe | NEB & CST Vocabulary Reference</title>
+<style>
+  body { font-family: Calibri, Arial, sans-serif; max-width: 960px; margin: 0 auto; padding: 24px; color: #1a1a1a; }
+  h1 { color: #1F4E79; border-bottom: 3px solid #2E75B6; padding-bottom: 6px; }
+  h2 { color: #2E75B6; margin-top: 28px; }
+  h3 { color: #1a1a1a; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+  th { background: #1F4E79; color: white; padding: 8px 12px; text-align: left; font-size: 0.9em; }
+  td { padding: 7px 12px; border: 1px solid #BBBBBB; font-size: 0.9em; vertical-align: top; }
+  tr:nth-child(even) { background: #f5f8fc; }
+  .section-banner { background: #1F4E79; color: white; padding: 10px 16px; font-size: 1.2em; font-weight: bold; margin-top: 40px; margin-bottom: 16px; }
+  .note { background: #D6E4F0; border-left: 4px solid #2E75B6; padding: 10px 16px; margin-bottom: 20px; font-style: italic; }
+  .header-block { background: #1F4E79; color: white; padding: 20px 24px; margin-bottom: 24px; }
+  .header-block h1 { color: white; border: none; margin: 0 0 4px 0; }
+  .header-block p { margin: 0; opacity: 0.8; }
+</style>
+</head>
+<body>
+
+<div class="header-block">
+  <h1>Field Sales Scribe</h1>
+  <p>NEB &amp; CST Vocabulary &amp; Terminology Reference &mdash; AI Agent Knowledge Source</p>
+</div>
+
+<div class="note">
+  This page is the knowledge source for the Field Sales Scribe AI agent. It contains pronunciation guides, product names, techniques, abbreviations, and commercial terminology for New England Biolabs (NEB) and Cell Signaling Technology (CST).
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section-banner">SECTION 1 &mdash; PRONUNCIATION GUIDE</div>
+<p>This section tells the AI how to interpret voice recognition errors caused by accents and speech patterns. Apply to every voice message before any other processing.</p>
+
+<h2>1.1 Spanish-Accent Speech Patterns</h2>
+<table>
+  <tr><th>WHAT AI MAY HEAR</th><th>CORRECT TERM</th></tr>
+  <tr><td>Sip-sec / Simple-sip</td><td>ChIP-seq / SimpleChIP</td></tr>
+  <tr><td>fosfo / fos-fo</td><td>phospho-</td></tr>
+  <tr><td>quinase / kee-nase</td><td>kinase</td></tr>
+  <tr><td>a-say / essay</td><td>assay</td></tr>
+  <tr><td>secuensing / secuencing</td><td>sequencing</td></tr>
+  <tr><td>antibodi / anti-bodi</td><td>antibody</td></tr>
+  <tr><td>membran / menbrane</td><td>membrane</td></tr>
+  <tr><td>protocolo / protoco</td><td>protocol</td></tr>
+  <tr><td>neb-nex / nep-next</td><td>NEBNext</td></tr>
+  <tr><td>ree-ayent / re-agent</td><td>reagent</td></tr>
+  <tr><td>balidation / balidacion</td><td>validation</td></tr>
+  <tr><td>iFi / ee-fi</td><td>HiFi</td></tr>
+  <tr><td>alisa / elisa</td><td>ELISA</td></tr>
+  <tr><td>estern blot</td><td>western blot (WB)</td></tr>
+  <tr><td>antivodies / anti-bodes</td><td>antibodies</td></tr>
+  <tr><td>Ilumina</td><td>Illumina</td></tr>
+  <tr><td>secuencia / secuensing</td><td>sequencing</td></tr>
+  <tr><td>espression / expression</td><td>expression</td></tr>
+  <tr><td>chIP / sip</td><td>ChIP</td></tr>
+</table>
+
+<h2>1.2 Mandarin (Taiwan) Accent Speech Patterns</h2>
+<table>
+  <tr><th>WHAT AI MAY HEAR</th><th>CORRECT TERM</th></tr>
+  <tr><td>ribrary / librawy</td><td>library</td></tr>
+  <tr><td>rysis / lysis</td><td>lysis</td></tr>
+  <tr><td>croning / cloning</td><td>cloning</td></tr>
+  <tr><td>proriferation</td><td>proliferation</td></tr>
+  <tr><td>patway / datway</td><td>pathway</td></tr>
+  <tr><td>treshold / dresold</td><td>threshold</td></tr>
+  <tr><td>chi / chee / chee-pee</td><td>ChIP</td></tr>
+  <tr><td>neh / ne-buh</td><td>NEB</td></tr>
+  <tr><td>a-se / a-say</td><td>assay</td></tr>
+  <tr><td>kee-nase / ki-nase</td><td>kinase</td></tr>
+  <tr><td>fos-fo-ri-la-tion</td><td>phosphorylation</td></tr>
+  <tr><td>bro / blo (in context)</td><td>blot</td></tr>
+  <tr><td>queue-pee-see-are</td><td>qPCR</td></tr>
+  <tr><td>rex-tric-tion</td><td>restriction</td></tr>
+  <tr><td>ex-pres-sion</td><td>expression</td></tr>
+</table>
+
+<h2>1.3 General Speech Recognition Corrections</h2>
+<table>
+  <tr><th>WHAT AI MAY HEAR</th><th>CORRECT TERM</th></tr>
+  <tr><td>anna bodies / anti bodies</td><td>antibodies</td></tr>
+  <tr><td>nano poor / nano pore</td><td>Nanopore</td></tr>
+  <tr><td>Oxford Nano poor</td><td>Oxford Nanopore Technologies (ONT)</td></tr>
+  <tr><td>cut and run</td><td>CUT&amp;RUN</td></tr>
+  <tr><td>cut and tag</td><td>CUT&amp;Tag</td></tr>
+  <tr><td>chip seek</td><td>ChIP-seq</td></tr>
+  <tr><td>attack seek / atac seek</td><td>ATAC-seq</td></tr>
+  <tr><td>r n a seek</td><td>RNA-seq</td></tr>
+  <tr><td>flow site / flo site</td><td>flow cytometry</td></tr>
+  <tr><td>western / western blot</td><td>western blot (WB)</td></tr>
+  <tr><td>eliza / alisa</td><td>ELISA</td></tr>
+  <tr><td>new england bio labs</td><td>New England Biolabs (NEB)</td></tr>
+  <tr><td>cell signalling / selling</td><td>Cell Signaling Technology (CST)</td></tr>
+  <tr><td>neb next / neb-next</td><td>NEBNext</td></tr>
+  <tr><td>q five / queue five</td><td>Q5</td></tr>
+  <tr><td>simple chip</td><td>SimpleChIP</td></tr>
+  <tr><td>path scan</td><td>PathScan</td></tr>
+  <tr><td>hifi assembly / high fi</td><td>HiFi Assembly</td></tr>
+  <tr><td>gibson / jay gibson</td><td>Gibson Assembly</td></tr>
+  <tr><td>em seek / e m seek</td><td>EM-seq</td></tr>
+  <tr><td>monarch</td><td>Monarch (NEB purification kit line)</td></tr>
+  <tr><td>luna / loona</td><td>Luna (NEB qPCR product line)</td></tr>
+  <tr><td>signal star / signal-star</td><td>SignalStar</td></tr>
+  <tr><td>intra seek / in-tra-seek</td><td>InTraSeq</td></tr>
+  <tr><td>hi scribe / hiscribe</td><td>HiScribe</td></tr>
+  <tr><td>neb builder / neb-builder</td><td>NEBuilder</td></tr>
+  <tr><td>neb express / neb-express</td><td>NEBExpress</td></tr>
+  <tr><td>epimark / epi mark</td><td>EpiMark</td></tr>
+  <tr><td>phospho site plus</td><td>PhosphoSitePlus</td></tr>
+  <tr><td>ultra shear / ultra-shear</td><td>NEBNext UltraShear</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section-banner">SECTION 2 &mdash; CELL SIGNALING TECHNOLOGY (CST)</div>
+
+<h2>2.1 Product Categories</h2>
+<table>
+  <tr><th>PRODUCT CATEGORY</th><th>DESCRIPTION / NOTES</th></tr>
+  <tr><td>Primary Antibodies</td><td>Core CST product &mdash; phospho and total protein forms</td></tr>
+  <tr><td>Secondary Antibodies</td><td>HRP, fluorescent, biotin-conjugated</td></tr>
+  <tr><td>Antibody Sampler Kits</td><td>Bundled pathway antibody sets at a discount</td></tr>
+  <tr><td>ELISA Kits</td><td>Sandwich ELISA and PathScan formats</td></tr>
+  <tr><td>Cellular Assay Kits</td><td>Cell viability, apoptosis, pathway activation</td></tr>
+  <tr><td>Proteomic Analysis Products</td><td>PTMScan, PhosphoScan, ubiquitin enrichment</td></tr>
+  <tr><td>WB &amp; IP Reagents</td><td>Blocking buffers, lysis buffers, protein A/G beads</td></tr>
+  <tr><td>SignalStar Multiplex IHC Kits</td><td>Multiplexed tissue staining platform</td></tr>
+  <tr><td>InTraSeq Kits</td><td>Intracellular protein + transcriptome single-cell analysis</td></tr>
+  <tr><td>CUT&amp;RUN Kits &amp; Reagents</td><td>Chromatin profiling alternative to ChIP</td></tr>
+  <tr><td>CUT&amp;Tag Kits &amp; Reagents</td><td>Tagmentation-based chromatin profiling</td></tr>
+  <tr><td>ChIP Kits &amp; Reagents</td><td>SimpleChIP Enzymatic and Sonication kits</td></tr>
+  <tr><td>Flow Cytometry Kits</td><td>Intracellular and surface marker panels</td></tr>
+  <tr><td>siRNA</td><td>Gene silencing reagents</td></tr>
+  <tr><td>Cytokines &amp; Growth Factors</td><td>Recombinant human/mouse/rat proteins</td></tr>
+  <tr><td>Activators &amp; Inhibitors</td><td>Small molecule pathway modulators</td></tr>
+</table>
+
+<h2>2.2 Applications / Techniques</h2>
+<table>
+  <tr><th>ABBREVIATION / TERM</th><th>FULL NAME</th></tr>
+  <tr><td>WB</td><td>Western Blot (Immunoblot)</td></tr>
+  <tr><td>IHC</td><td>Immunohistochemistry</td></tr>
+  <tr><td>IHC-P</td><td>Immunohistochemistry &mdash; Paraffin sections</td></tr>
+  <tr><td>IHC-F</td><td>Immunohistochemistry &mdash; Frozen sections</td></tr>
+  <tr><td>IF</td><td>Immunofluorescence</td></tr>
+  <tr><td>ICC</td><td>Immunocytochemistry</td></tr>
+  <tr><td>IP</td><td>Immunoprecipitation</td></tr>
+  <tr><td>co-IP</td><td>Co-immunoprecipitation</td></tr>
+  <tr><td>ChIP</td><td>Chromatin Immunoprecipitation</td></tr>
+  <tr><td>ChIP-seq</td><td>ChIP followed by next-generation sequencing</td></tr>
+  <tr><td>CUT&amp;RUN</td><td>Cleavage Under Targets &amp; Release Using Nuclease</td></tr>
+  <tr><td>CUT&amp;Tag</td><td>Cleavage Under Targets &amp; Tagmentation</td></tr>
+  <tr><td>ELISA</td><td>Enzyme-Linked Immunosorbent Assay</td></tr>
+  <tr><td>Flow</td><td>Flow Cytometry</td></tr>
+  <tr><td>Simple Western</td><td>Automated capillary-based western blot (Jess/Sally)</td></tr>
+  <tr><td>LC/MS</td><td>Liquid Chromatography / Mass Spectrometry</td></tr>
+  <tr><td>Multiplex IHC</td><td>Multiple simultaneous antibody staining on tissue</td></tr>
+  <tr><td>Spatial Biology</td><td>Tissue-level multi-marker spatial profiling</td></tr>
+  <tr><td>InTraSeq</td><td>Intracellular protein + RNA single-cell sequencing</td></tr>
+  <tr><td>PTMScan</td><td>Post-translational modification proteomics platform</td></tr>
+</table>
+
+<h2>2.3 Key Signaling Pathways</h2>
+<table>
+  <tr><th>PATHWAY</th><th>NOTES</th></tr>
+  <tr><td>PI3K / Akt</td><td>Growth, survival signaling</td></tr>
+  <tr><td>MAPK / Erk</td><td>Mitogen-activated protein kinase &mdash; proliferation</td></tr>
+  <tr><td>mTOR</td><td>Mammalian target of rapamycin &mdash; growth, metabolism</td></tr>
+  <tr><td>NF-kB</td><td>Nuclear factor kappa B &mdash; inflammation, immunity</td></tr>
+  <tr><td>JAK / STAT</td><td>Janus kinase / Signal transducer &mdash; cytokine signaling</td></tr>
+  <tr><td>SAPK / JNK</td><td>Stress-activated protein kinase &mdash; stress response</td></tr>
+  <tr><td>p38 MAPK</td><td>Inflammation, stress</td></tr>
+  <tr><td>Wnt / beta-Catenin</td><td>Development, stem cells</td></tr>
+  <tr><td>TGF-beta</td><td>Transforming growth factor beta &mdash; fibrosis, EMT</td></tr>
+  <tr><td>AMPK</td><td>AMP-activated protein kinase &mdash; energy sensing</td></tr>
+  <tr><td>ErbB / HER</td><td>Cancer, growth factors</td></tr>
+  <tr><td>Autophagy</td><td>ULK1, Beclin-1, LC3 &mdash; cellular clearance</td></tr>
+  <tr><td>Apoptosis</td><td>Bcl-2, Caspase, p53 &mdash; programmed cell death</td></tr>
+</table>
+
+<h2>2.4 Key CST Product Names</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>DESCRIPTION</th></tr>
+  <tr><td>SimpleChIP Enzymatic ChIP Kit</td><td>Enzymatic chromatin shearing for ChIP &mdash; flagship ChIP product</td></tr>
+  <tr><td>SimpleChIP Plus Sonication Kit</td><td>Sonication-based chromatin shearing for ChIP</td></tr>
+  <tr><td>PathScan ELISA Kits</td><td>Sandwich ELISA for signaling protein detection</td></tr>
+  <tr><td>SignalStar Multiplex IHC</td><td>Multiplexed tissue imaging platform</td></tr>
+  <tr><td>InTraSeq Kit</td><td>Single-cell intracellular protein + RNA co-profiling</td></tr>
+  <tr><td>PTMScan</td><td>Mass spec-based post-translational modification profiling</td></tr>
+  <tr><td>PhosphoSitePlus</td><td>Public PTM database maintained by CST</td></tr>
+  <tr><td>CUT&amp;RUN Kit</td><td>Chromatin profiling with pAG-MNase enzyme</td></tr>
+  <tr><td>CUT&amp;Tag Kit</td><td>Chromatin profiling with pAG-Tn5 transposase</td></tr>
+  <tr><td>AQUA Peptides</td><td>Quantitative MS standards for proteomics</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section-banner">SECTION 3 &mdash; NEW ENGLAND BIOLABS (NEB)</div>
+
+<h2>3.1 NEBNext Product Line &mdash; NGS Library Preparation</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>PLATFORM / PURPOSE</th></tr>
+  <tr><td>NEBNext UltraExpress DNA Library Prep Kit</td><td>Illumina &mdash; fast under 2hr DNA library prep</td></tr>
+  <tr><td>NEBNext UltraExpress RNA Library Prep Kit</td><td>Illumina &mdash; fast 3hr RNA library prep</td></tr>
+  <tr><td>NEBNext Ultra II DNA Library Prep Kit</td><td>Illumina &mdash; flagship high-quality DNA library prep</td></tr>
+  <tr><td>NEBNext Ultra II FS DNA Library Prep Kit</td><td>Illumina &mdash; with enzymatic fragmentation</td></tr>
+  <tr><td>NEBNext Ultra II RNA Library Prep Kit</td><td>Illumina &mdash; high-sensitivity RNA-seq</td></tr>
+  <tr><td>NEBNext Enzymatic Methyl-seq Kit (EM-seq)</td><td>Illumina &mdash; methylation analysis, bisulfite alternative</td></tr>
+  <tr><td>NEBNext Enzymatic Methyl-seq v2 Kit</td><td>Illumina &mdash; improved EM-seq, wider input range (100 pg)</td></tr>
+  <tr><td>NEBNext Enzymatic E5hmC-seq Kit</td><td>Illumina &mdash; specific detection of 5-hydroxymethylcytosine</td></tr>
+  <tr><td>NEBNext ARTIC SARS-CoV-2 Kits</td><td>ONT / Illumina &mdash; viral genome sequencing</td></tr>
+  <tr><td>NEBNext Multiplex Small RNA Library Prep Set</td><td>Illumina &mdash; miRNA and small RNA sequencing</td></tr>
+  <tr><td>NEBNext Microbiome DNA Enrichment Kit</td><td>Illumina &mdash; host DNA depletion for microbiome</td></tr>
+  <tr><td>NEBNext Globin &amp; rRNA Depletion Kit</td><td>Illumina &mdash; human/mouse/rat blood RNA-seq</td></tr>
+  <tr><td>NEBNext UltraShear</td><td>Enzymatic DNA fragmentation &mdash; EM-seq compatible</td></tr>
+  <tr><td>NEBNext LV Unique Dual Index Primers</td><td>Low-volume dual indexing primers for multiplexing</td></tr>
+  <tr><td>NEBNext Direct Genotyping Solution</td><td>Agricultural biotech genotyping workflow</td></tr>
+</table>
+
+<h2>3.2 PCR &amp; Amplification Products</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>KEY FEATURE</th></tr>
+  <tr><td>Q5 High-Fidelity DNA Polymerase</td><td>Flagship high-fidelity &mdash; ultra-low error rate</td></tr>
+  <tr><td>Q5 Hot Start High-Fidelity DNA Polymerase</td><td>Q5 with hot start for non-specific priming reduction</td></tr>
+  <tr><td>Q5U (Q5 Ultra)</td><td>Modified Q5 for use in EM-seq workflows</td></tr>
+  <tr><td>Q5 2X Master Mix</td><td>Ready-to-use Q5 mix</td></tr>
+  <tr><td>Luna Universal qPCR Master Mix</td><td>Broad dye compatibility &mdash; SYBR and probe</td></tr>
+  <tr><td>Luna Universal Probe qPCR Master Mix</td><td>Probe-based qPCR</td></tr>
+  <tr><td>Luna Universal One-Step RT-qPCR Kit</td><td>RT-qPCR in single tube</td></tr>
+  <tr><td>OneTaq DNA Polymerase</td><td>Taq + Deep Vent blend &mdash; routine and difficult PCR</td></tr>
+  <tr><td>Phusion High-Fidelity DNA Polymerase</td><td>High-fidelity, fast extension rate</td></tr>
+  <tr><td>WarmStart LAMP 2X Master Mix</td><td>Isothermal LAMP amplification</td></tr>
+  <tr><td>phi29 DNA Polymerase</td><td>Rolling circle amplification, WGA</td></tr>
+  <tr><td>phi29-XT WGA Kit</td><td>Whole genome amplification from low input</td></tr>
+</table>
+
+<h2>3.3 DNA Assembly &amp; Cloning</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>KEY FEATURE</th></tr>
+  <tr><td>Gibson Assembly Master Mix</td><td>Multi-fragment seamless cloning &mdash; original</td></tr>
+  <tr><td>NEBuilder HiFi DNA Assembly Master Mix</td><td>Improved Gibson &mdash; higher efficiency, longer fragments</td></tr>
+  <tr><td>NEBuilder HiFi DNA Assembly Cloning Kit</td><td>Complete kit with competent cells</td></tr>
+  <tr><td>Golden Gate Assembly Kit (BsaI-HF v2)</td><td>Type IIS restriction-based modular assembly</td></tr>
+  <tr><td>T4 DNA Ligase</td><td>Standard ligation enzyme</td></tr>
+  <tr><td>Quick Ligation Kit</td><td>Fast 5-minute ligation</td></tr>
+  <tr><td>CRISPR / Cas9 Nuclease</td><td>Gene editing &mdash; S. pyogenes Cas9</td></tr>
+</table>
+
+<h2>3.4 Monarch Purification Kit Line</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>PURPOSE</th></tr>
+  <tr><td>Monarch PCR &amp; DNA Cleanup Kit</td><td>PCR product purification</td></tr>
+  <tr><td>Monarch DNA Gel Extraction Kit</td><td>Gel-based DNA purification</td></tr>
+  <tr><td>Monarch Genomic DNA Purification Kit</td><td>gDNA from cells and tissues</td></tr>
+  <tr><td>Monarch HMW DNA Extraction Kit</td><td>High molecular weight DNA for long-read sequencing</td></tr>
+  <tr><td>Monarch Total RNA Miniprep Kit</td><td>Total RNA from cells and tissues</td></tr>
+  <tr><td>Monarch RNA Cleanup Kit</td><td>RNA purification after IVT or other reactions</td></tr>
+  <tr><td>Monarch cfDNA Extraction Kit</td><td>Cell-free DNA from plasma and serum</td></tr>
+</table>
+
+<h2>3.5 RNA Reagents &amp; In Vitro Transcription</h2>
+<table>
+  <tr><th>PRODUCT NAME</th><th>PURPOSE</th></tr>
+  <tr><td>HiScribe T7 High Yield RNA Synthesis Kit</td><td>In vitro transcription &mdash; T7 promoter</td></tr>
+  <tr><td>HiScribe T7 ARCA mRNA Kit (with tailing)</td><td>mRNA synthesis with cap and poly-A tail</td></tr>
+  <tr><td>Vaccinia Capping System</td><td>Co-transcriptional 5' capping of mRNA</td></tr>
+  <tr><td>ProtoScript II Reverse Transcriptase</td><td>cDNA synthesis</td></tr>
+  <tr><td>Induro Reverse Transcriptase</td><td>Nanopore direct RNA sequencing</td></tr>
+  <tr><td>dbDNA (dumbbell DNA)</td><td>Enzymatic linear DNA production without fermentation</td></tr>
+  <tr><td>EnClose TelA/TelN Protelomerase</td><td>Closed-end linear DNA for gene therapy and IVT</td></tr>
+  <tr><td>LNP workflow tools</td><td>Lipid nanoparticle encapsulation support for mRNA therapeutics</td></tr>
+</table>
+
+<h2>3.6 Key NEB Abbreviations</h2>
+<table>
+  <tr><th>TERM</th><th>MEANING</th></tr>
+  <tr><td>HF (High Fidelity)</td><td>Restriction enzyme with reduced star activity, single buffer compatible</td></tr>
+  <tr><td>FS (Fragment Select)</td><td>Enzymatic fragmentation incorporated in library prep kit</td></tr>
+  <tr><td>IVT</td><td>In vitro transcription</td></tr>
+  <tr><td>LNP</td><td>Lipid nanoparticle &mdash; mRNA delivery vehicle</td></tr>
+  <tr><td>WGA</td><td>Whole genome amplification</td></tr>
+  <tr><td>LAMP</td><td>Loop-mediated isothermal amplification</td></tr>
+  <tr><td>UDG</td><td>Uracil DNA Glycosylase &mdash; carryover contamination prevention</td></tr>
+  <tr><td>ONT</td><td>Oxford Nanopore Technologies &mdash; long-read sequencing platform</td></tr>
+  <tr><td>GMP-grade</td><td>NEB term for reagents meeting pharmaceutical manufacturing standards</td></tr>
+  <tr><td>REBASE</td><td>NEB restriction enzyme database</td></tr>
+  <tr><td>5mC</td><td>5-methylcytosine &mdash; primary methylation mark</td></tr>
+  <tr><td>5hmC</td><td>5-hydroxymethylcytosine &mdash; active demethylation intermediate</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section-banner">SECTION 4 &mdash; SALES &amp; COMMERCIAL CONTEXT</div>
+
+<h2>4.1 Customer Types</h2>
+<table>
+  <tr><th>TERM</th><th>MEANING</th></tr>
+  <tr><td>PI</td><td>Principal Investigator &mdash; lab head / decision maker</td></tr>
+  <tr><td>KOL</td><td>Key Opinion Leader &mdash; influential researcher</td></tr>
+  <tr><td>KAM</td><td>Key Account Manager &mdash; internal NEB/CST senior sales role</td></tr>
+  <tr><td>Lab Manager</td><td>Operations and procurement decision maker in lab</td></tr>
+  <tr><td>Core Facility Director</td><td>Manages shared research infrastructure and services</td></tr>
+  <tr><td>Postdoc</td><td>Postdoctoral researcher &mdash; product decision influencer</td></tr>
+  <tr><td>PhD Student</td><td>Graduate student &mdash; product end user</td></tr>
+</table>
+
+<h2>4.2 Commercial Terms</h2>
+<table>
+  <tr><th>TERM</th><th>MEANING</th></tr>
+  <tr><td>Quote / Quotation</td><td>Formal pricing document</td></tr>
+  <tr><td>PO (Purchase Order)</td><td>Customer formal buying authorisation</td></tr>
+  <tr><td>Trial / Sample</td><td>Free or low-cost product evaluation</td></tr>
+  <tr><td>Grant cycle</td><td>Academic funding cycle affecting purchasing timing</td></tr>
+  <tr><td>Freezer Program</td><td>NEB on-site product access model at customer location</td></tr>
+  <tr><td>Competitive displacement</td><td>Replacing a competitor product with NEB/CST</td></tr>
+  <tr><td>Distributor</td><td>Third-party company selling NEB/CST products (e.g. Jomar, Biosite)</td></tr>
+  <tr><td>AUD / Australian dollars</td><td>Default currency for all pricing</td></tr>
+  <tr><td>End of financial year</td><td>Budget spend deadline &mdash; purchasing pressure point</td></tr>
+  <tr><td>SoC (Standard of Care)</td><td>Established product or method in a lab workflow</td></tr>
+</table>
+
+<h2>4.3 Competitor References</h2>
+<p><em>Record competitor names as spoken &mdash; do not auto-correct to NEB/CST product names.</em></p>
+<table>
+  <tr><th>AS SPOKEN</th><th>CORRECT TERM</th></tr>
+  <tr><td>Thermo / ThermoFisher</td><td>Thermo Fisher Scientific</td></tr>
+  <tr><td>Invitrogen</td><td>Invitrogen (Thermo Fisher brand)</td></tr>
+  <tr><td>Abcam</td><td>Abcam (antibody supplier)</td></tr>
+  <tr><td>Merck / Sigma / Millipore</td><td>Merck (Sigma-Aldrich / MilliporeSigma)</td></tr>
+  <tr><td>Qiagen / kyagen</td><td>Qiagen (purification kits)</td></tr>
+  <tr><td>Roche / Rosh</td><td>Roche (diagnostics and reagents)</td></tr>
+  <tr><td>Bio-Rad / biorad</td><td>Bio-Rad (electrophoresis, PCR, antibodies)</td></tr>
+  <tr><td>Takara / takara bio</td><td>Takara Bio (cloning, PCR, NGS)</td></tr>
+  <tr><td>Agilent / agilant</td><td>Agilent Technologies</td></tr>
+  <tr><td>IDT</td><td>Integrated DNA Technologies (oligos, CRISPR)</td></tr>
+  <tr><td>Zymo / Zymo Research</td><td>Zymo Research (epigenetics, purification)</td></tr>
+  <tr><td>Abclonal / ab clonal</td><td>Abclonal (antibody supplier)</td></tr>
+  <tr><td>Proteintech / protein tech</td><td>Proteintech (antibodies)</td></tr>
+  <tr><td>Santa Cruz / santa cruz bio</td><td>Santa Cruz Biotechnology (antibodies)</td></tr>
+</table>
+
+<h2>4.4 Australian Market</h2>
+<table>
+  <tr><th>TERM</th><th>NOTES</th></tr>
+  <tr><td>Jomar Life Research</td><td>NEB distributor in Australia</td></tr>
+  <tr><td>Biosite / Sapphire</td><td>Other Australian life science distributors</td></tr>
+  <tr><td>NHMRC</td><td>National Health and Medical Research Council &mdash; major grant body</td></tr>
+  <tr><td>ARC</td><td>Australian Research Council &mdash; grant body</td></tr>
+  <tr><td>MRFF</td><td>Medical Research Future Fund &mdash; large Australian research grants</td></tr>
+  <tr><td>WEHI</td><td>Walter and Eliza Hall Institute &mdash; major Melbourne biomedical research institute</td></tr>
+  <tr><td>Garvan Institute</td><td>Sydney-based medical research institute</td></tr>
+  <tr><td>Peter Mac / Peter MacCallum</td><td>Peter MacCallum Cancer Centre &mdash; Melbourne</td></tr>
+  <tr><td>CSIRO</td><td>Commonwealth Scientific and Industrial Research Organisation</td></tr>
+  <tr><td>SAHMRI</td><td>South Australian Health and Medical Research Institute</td></tr>
+  <tr><td>Mater Research</td><td>Brisbane-based Mater Research Institute</td></tr>
+  <tr><td>Telethon Kids</td><td>Perth-based Telethon Kids Institute</td></tr>
+  <tr><td>QIMR Berghofer</td><td>Brisbane-based medical research institute</td></tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<div class="section-banner">SECTION 5 &mdash; CUSTOM ADDITIONS</div>
+<p><em>Add your own terms below using the same table format.</em></p>
+
+<h2>5.1 Custom Product Terms</h2>
+<table>
+  <tr><th>TERM AS SPOKEN / MISHEARD</th><th>CORRECT TERM</th></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>5.2 Custom Customer / Account Names</h2>
+<table>
+  <tr><th>AS SPOKEN</th><th>CORRECT NAME</th></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>5.3 Custom Competitor Names</h2>
+<table>
+  <tr><th>AS SPOKEN</th><th>CORRECT NAME</th></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<hr>
+<p style="text-align:center; color:#888; font-size:0.85em;">Field Sales Scribe &nbsp;|&nbsp; NEB &amp; CST &nbsp;|&nbsp; May 2026</p>
+
+</body>
+</html>
